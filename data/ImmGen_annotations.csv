@@ -1,0 +1,277 @@
+short_name,long_name,description
+B_Fo_LN,Lymph Node B Cells,6 week old C57BL/6J mice sorted on CD19+ B220+ IgM+ AA4- CD23+ CD43- CD5-
+B_Fo_MLN,Mesenteric Node B Cells,6 week old C57BL/6J mice sorted on CD19+ B220+ IgM+ AA4- CD23+ CD43- CD21/35-
+B_Fo_PC,"Fo-type, Peritoneal Cavity",7 week old C57BL/6J mice sorted on CD19+ B220+ IgM+ AA4- CD23+ CD43- CD5-
+B_Fo_Sp,Spleen Follicular B cells,7 week old C57BL/6J mice sorted on CD19+ CD45R+ IgM+ AA4.1- CD23+ CD43- CD5-
+B_FrE_BM,"newly-formed B cell population, Fr. E",6 week old C57BL/6J mice sorted on CD19+ IgM+ AA4.1+ CD24+
+B_FrE_FL,Fr. E (newly-formed B),18 day old C57BL/6J mice sorted on AA4+ IgM+ CD19+ CD43- HSA+
+B_FrF_BM,Bone Marrow Fraction F,6 week old C57BL/6J mice sorted on CD19+ IgM+ AA4.1- CD24-
+B_GC_Sp,"Germinal Center B cells, Spleen",6 week old C57BL/6J mice sorted on CD19+ IgM+ IgD- GL7+ PNA+
+B_Mem_Sp_v2,Spleen B cells,15 week old C57BL/6J mice sorted on CD19+B220+IgM-Kappa+AA4-
+B_MZ_Sp,MZ (Marginal Zone),7 week old C57BL/6J mice sorted on CD19+ B220+ IgM++ AA4- CD23- CD21/35++
+B_T1_Sp,T1 (transitional),7 week old C57BL/6J mice sorted on CD19+ B220+ IgM++ AA4+ CD23-
+B_T2_Sp,T2 (Transitional),7 week old C57BL/6J mice sorted on CD19+ B220+ IgM++ AA4+ CD23+
+B_T3_Sp,T3 (Transitional),7 week old C57BL/6J mice sorted on CD19+ B220+ IgM+ AA4+ CD23+
+B1a_PC,"B-1a, Peritoneal Cavity",7 week old C57BL/6J mice sorted on CD19+ B220+ IgM++ AA4- CD23- CD43+ CD5+
+B1a_Sp,B-1a,7 week old C57BL/6J mice sorted on CD19+ B220+ IgM++ AA4- CD23- CD43+ CD5+
+B1a_Sp_v2,B-1a,9 week old C57BL/6J mice sorted on Thymus B6 E17 DP CD69+
+B1b_PC,"B-1b, Peritoneal Cavity",7 week old C57BL/6J mice sorted on CD19+ B220+ IgM++ AA4- CD23- CD43+ CD5-
+BA_Bl,Blood Basophil,
+BA_Sp,Splenic Basophils,
+BEC_MLN,Mesenteric Lymph Node Blood Endothelial Cell,6 week old C57BL/6J mice sorted on CD45- CD31+ gp38-
+BEC_SLN,Cutaneous Lymph Node Blood Endothelial Cell,6 week old C57BL/6J mice sorted on CD45- CD31+ gp38-
+BEC_SLN_OT,Cutaneous Lymph Node Blood Endothelial Cell,
+DC_103+11b-_Lu,Lung CD103+ Dendritic Cells,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD11blo CD103+
+DC_103+11b-_Lv,Liver CD103+ Dendritic Cells,8 week old C57BL/6J mice sorted on CD45+ CD11c+ MHCII+ CD11blo CD103+
+DC_103-11b+24+_Lu,Lung Cd11b+24+ Dendritic Cells,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD11bhi CD103- CD24+
+DC_103-11b+F4/80lo_Kd,"Kidney Cd11b+ F4/80Lo Dendritic Cells (P7, Cd11b Hi)",6 week old C57BL/6J mice sorted on CD45+ CD3- B220- NKp46- CD11c+ MHCII+ CD11b+ F4/80lo
+DC_11b-_AT_v2,Adipose Tissue CD11b- Dendritic Cells,
+DC_11b+_AT_v2,Adipose Tissue CD11b+ Dendritic Cells,
+DC_4+_MLN,Mesenteric LN CD4+ Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4+ CD11b+
+DC_4+_SLN,Skin Draining LN CD4+ Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4+ CD11b+
+DC_4+_Sp_ST,Spleen CD4+ Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4+ CD11b+
+DC_8-_Th,Thymus Double Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b-
+DC_8+_MLN,Mesenteric LN CD8+ Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a+ CD4- CD11b-
+DC_8+_SLN,Skin Draining LN CD8+ Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a+ CD4- CD11b-
+DC_8+_Sp_ST,Spleen CD8+ Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a+ CD4- CD11b-
+DC_8+_Th,Thymus CD8 Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a+ CD4- CD11b-
+DC_8-4-11b-_MLN,Mesenteric LN Triple Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b-
+DC_8-4-11b-_SLN,Skin Draining LN Triple Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b-
+DC_8-4-11b-_Sp,Spleen Triple Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b-
+DC_8-4-11b+_MLN,Mesenteric LN Double Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b+
+DC_8-4-11b+_SLN,Skin Draining LN Double Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b+
+DC_8-4-11b+_Sp,Spleen Double Negative Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b+
+DC_IIhilang+103+11blo_SLN,Skin Draining LN MHCIIhi Langerin+ CD103+ CD11blo Dendritic Cell,10 week old C57BL/6J mice sorted on CD11c+ MHCIIhi langerin+ CD11blo CD103+ CD8a- CD4-
+DC_IIhilang+103-11b+_SLN,Skin Draining LN MHCIIhi Langerin+ CD103- CD11b+ Dendritic Cell,10 week old C57BL/6J mice sorted on CD11c+ MHCIIhi langerin+ CD11b+ CD103- CD8a- CD4-
+DC_IIhilang-103-11b+_SLN,Skin Draining LN MHCIIhi Langerin- CD103- CD11b+ Dendritic Cell,10 week old C57BL/6J mice sorted on CD11c+ MHCIIhi langerin- CD11b+ CD103- CD8a- CD4-
+DC_IIhilang-103-11blo_SLN,Skin Draining LN MHCIIhi Langerin- CD103- CD11b- Dendritic Cell,10 week old C57BL/6J mice sorted on CD11c+ MHCIIhi langerin- CD11b- CD103- CD8a- CD4-
+DC_LC_Sk,Epidermal/Langerhans Dendritic Cell,8 week old C57BL/6J mice sorted on CD45+ MHCII+ CD11c+ CD11b+
+DC_pDC_8-_Sp,Spleen CD8- Plasmacytoid Dendritic Cell,6 week old C57BL/6J mice sorted on CD11cint CD8a- CD4+ B220+ Gr1+
+DC_pDC_8+_MLN,Mesenteric LN Cd8+ Plasmacytoid Dendritic Cell,6 week old C57BL/6J mice sorted on CD11cint CD8a+ CD4+ B220+ Gr1+
+DC_pDC_8+_SLN,Skin Draining  LN Cd8+ Plasmacytoid Dendritic Cell,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD4- CD11b+
+DC_pDC_8+_Sp,Spleen CD8+ Plasmacytoid Dendritic Cell,6 week old C57BL/6J mice sorted on CD11cint CD8a+ CD4+ B220+ Gr1+
+DN_SLN_CFA_d6_v2,,
+DN_SLN_v2,,
+EO_AT_v2,Adipose tissue eosinophil,
+Eo_BL_v2,Peripheral Blood Eosinophils,
+Ep_5wk_MEC_Sca1+_Th,Thymus MHCIIlowSca1+ medullary epithelial cell,
+Ep_5wk_MEChi_Th,Thymus MHCII+Sca1- medullary epithelial cell,
+Ep_5wk_MEClo_Th,Thymus MHCIIlowSca1- medullary epithelial cell,
+Ep_8wk_CEC_Sca1+_Th,Thymus MHCIIlowSca1+ cortical epithelial cell,
+Ep_8wk_CEChi_Th,Thymus MHCII+Sca1- cortical epithelial cell,
+Ep_8wk_MEChi_Th,Thymus MHCII+Sca1- medullary epithelial cell,
+Ep_8wk_MEClo_Th,Thymus MHCIIlowSca1- medullary epithelial cell,
+Ep_MEChi_Th,"Medullary Epithelial Cells, Mhc II Hi",6 week old C57BL/6J mice sorted on CD45- EpCAM+ Ly51- MHCIIhi
+Fi_MTS15+_Th,"Thymic Fibroblasts, Mts 15+",6 week old C57BL/6J mice sorted on CD45- PDGFRa+ MTS15+
+Fi_Sk,Skin Fibroblast,6 week old C57BL/6J mice sorted on CD45- MTS- 15+ PDGFRa+
+FRC_Cad11_WT_v2,,
+FRC_MLN,Mesenteric Lymph Node Fibroblastic Reticular Cell,6 week old C57BL/6J mice sorted on CD45- CD31- gp38+ PDGFRa+
+FRC_SLN,Cutaneous Lymph Node Fibroblastic Reticular Cell,6 week old C57BL/6J mice sorted on CD45- CD31- gp38+ PDGFRa+
+FRC_SLN_CFA_d6_v2,,
+FRC_SLN_OT,,
+FRC_SLN_v2,,
+GN_Arth_BM,"Neutrophils, Arthritic",6 week old C57BL/6J mice sorted on CD11b+ Gr1+ 7/4hi
+GN_Arth_SynF,"Neutrophils, Synovial Fluid",6 week old C57BL/6J mice sorted on CD11b+ Gr1+ 7/4hi
+GN_Bl,Neutrophils from Blood,6 week old C57BL/6J mice sorted on CD11b+ Gr1+ 7/4hi
+GN_Bl_v2,Blood Neutrophils,
+GN_BM,Neutrophils from Bone Marrow,6 week old C57BL/6J mice sorted on CD11b+ Gr1+ 7/4hi
+GN_Thio_PC,"Neutrophils, Thioglycolate",6 week old C57BL/6J mice sorted on CD11b+ Gr1+ 7/4hi
+GN_UrAc_PC,"Neutrophils, Uric Acid",6 week old C57BL/6J mice sorted on CD11b+ Gr1+ 7/4hi
+ILC1_CD127+_SI,,7 week old C57BL/6J mice with RORgt-GFP background sorted on CD45+ NKp46+ RORgt- CD127+ NK1.1+ CD3- CD19- 7-AAD-
+ILC1_CD127+_Sp,,10 week old C57BL/6J mice sorted on CD45+ NKp46+ NK1.1+ CD27+ CD127+ CD3- CD19- 7-AAD-
+ILC1_CD49b-_Lv,,10 week old C57BL/6J mice sorted on CD45+ NKp46+ NK1.1+ CD49B- TRAIL+ CD3- CD19- 7-AAD-
+ILC2_SI,,7 week old C57BL/6J mice sorted on CD45+ CD127+ Sca1+ ST2+ KLRG1+ CD3- CD19- 7-AAD-
+ILC3_NKp46-_4-_SI,,8 week old C57BL/6J mice with RORgt GFP+/- reporter sorted on CD45+ RORgt+ NKp46- CD4-CD3- CD19- 7-AAD-
+ILC3_NKp46-_4+_SI,,8 week old C57BL/6J mice with RORgt GFP+/- reporter sorted on CD45+ RORgt+ NKp46- CD4+ CD3- CD19- 7-AAD-
+ILC3_NKp46+_Rorgthi_SI,,7 week old C57BL/6J mice with RORgt-GFP background sorted on CD45+ NKp46+ RORgthi CD3- CD19- 7-AAD-
+LEC_MLN,Mesenteric Lymph Node Lymphatic Endothelial Cell,6 week old C57BL/6J mice sorted on CD45- CD31+ gp38+
+LEC_SLN,Cutaneous Lymph Node Lymphatic Endothelial Cell,6 week old C57BL/6J mice sorted on CD45- CD31+ gp38+
+LEC_SLN_CFA_d6_v2,,
+LEC_SLN_OT,,
+LEC_SLN_v2,,
+MC_digest_PC,,
+MC_Es,Esophagus Mast Cell,
+MC_PC,Peritoneal mast cell,
+MC_Sk,Skin Mast Cell,
+MC_To,Tongue Mast Cell,
+MC_Tr,Trachea Mast Cell,
+MEChi_GFP-_Adult,,
+MEChi_GFP+_Adult,,
+MEChi_GFP+_Adult_KO,,
+MF_103-11b+_Lu,Lung Cd11b+24- Dendritic Cells,6 week old C57BL/6J mice sorted on CD11c+ CD8a- CD11bhi CD103- CD24-
+MF_103-11b+_Salm3_SI,"Small Intestine Cd103-Cd11b+ Dendritic Cells Isolated From Mice Infected With Salmonella Typhimurium, Day 3 P/I",6 week old C57BL/6J mice sorted on CD45+ MHCII+ CD11chi CD11b+ CD103-
+MF_103-11b+_SI,Small Intestine Lamina Propria Cd103- Cd11b+ Dendritic Cells,6 week old C57BL/6J mice sorted on PI- CD45+ MHCII+ CD11chi CD103- CD11b+
+MF_11c-11b+_Lu,Interstitial macrophages,
+MF_11cloSer_Salm3_SI,"Small Intestine Serosal Dendritic Cells Isolated From Mice Infected With Salmonella Typhimurium, Day 3 P/I",6 week old C57BL/6J mice sorted on CD45+ MHCII+ CD11clo CD11b+ CD103-
+MF_11cloSer_SI,Small Intestine Serosal Dendritic Cells,6 week old C57BL/6J mice sorted on PI- CD45+ MHCII+ CD11clo CD103- CD11b+
+MF_169+11chi_SLN,Lymph Node Cd169+ Cd11C+ MF (Cd169+ DC),6 week old C57BL/6J mice sorted on CD169+ CD11chiCD11b+ B220- CD90- SiglecF- CD103- Ly6G- 
+MF_480hi_LV_Naive,F480hi Liver macrophage,
+MF_480int_LV_Naive,F480 int Liver macrophage,
+MF_Alv_Lu,Alveolar macrophages,
+MF_AT_v2,Adipose Tissue Macrophage,
+MF_BM,Bone Marrow Macrophages,6 week old C57BL/6J mice sorted on B220- CD3- Ly- 6C- CD115int F4/80+
+MF_F480hi_ctrl_PC,,
+MF_F480hi_Gata6ko_PC,,
+MF_II+480lo_PC,Peritoneal DC Steady State,6 week old C57BL/6J mice sorted on F4/80lo MHC II+ CD11c+ CD115+
+MF_II-480hi_PC,Peritoneal MF Steady State,8 week old C57BL/6J mice sorted on F4/80hi CD115hi CD11b+ MHCII- CD11c-
+MF_Lu,Lung Resident Macrophage,6 week old C57BL/6J mice sorted on CD11chi CD11b- CD103- MHCII- SiglecF+.
+MF_Medl_SLN,Medullary Sinus  MF (Mm),6 week old C57BL/6J mice sorted on CD169+ CD11cdimCD11b+ F4/80+ B220- CD90- SiglecF- CD103- Ly6G- 
+MF_Microglia_CNS,Central Nervous System Microglia,6 week old C57BL/6J mice sorted on CD45lo CD11b+ F4/80+
+MF_PPAR-_Lu,Lung Macrophage from Lysmcre Ppargfl/Fl Mice,
+MF_RP_Sp,Red Pulp MF,6 week old C57BL/6J mice sorted on F4/80hi CD11blo CD11c- autofluorescent
+MF_Sbcaps_SLN,Lymph Node Subcapsular MF (Scs),6 week old C57BL/6J mice sorted on CD169+ CD11c- CD11b+ F4/80- B220- CD90- SiglecF- CD103- Ly6G- 
+MF_Thio5_II+480int_PC,Peritoneal MF Thio-Elicited Day 5,8 week old C57BL/6J mice sorted on CD115+ MHCII+ F480lo SiglecF- CD11c+
+MF_Thio5_II+480lo_PC,Peritoneal MF Thio-Elicited Day 5,8 week old C57BL/6J mice sorted on CD115+ MHCII+ F480lo SiglecF- CD11c+
+MF_Thio5_II-480hi_PC,Peritoneal MF Thio-Elicited Day 5,8 week old C57BL/6J mice sorted on CD115+ MHCII+ F480lo SiglecF- CD11c+
+MF_Thio5_II-480int_PC,Peritoneal MF Thio-Elicited Day 5,8 week old C57BL/6J mice sorted on CD115+ MHCII- F480int SiglecF- CD11c+
+MLP_BM,Multilineage Progenitor,6 week old C57BL/6J mice sorted on LIN- AA4+ Kit+ +IL7Ra- B220-
+MLP_FL,Multilineage Progenitor,15 day old C57BL/6J mice sorted on LIN- AA4+ Kit+ +IL7Ra- B220-
+Mo_6+2-_BL,Blood Ly6C+MHCII+ monocytes,
+Mo_6+2+_BL,Blood Ly6C+MHCII+ monocytes,
+Mo_6+2+_MLN,Mesenteric LN monocytes,
+Mo_6+2+_SLN,Skin-draining LN monocytes,
+Mo_6C+II-_Bl,"Classical Monocytes, MHCII-",6 week old C57BL/6J mice sorted on CD115+ B220- Ly-6C+ MHCII-
+Mo_6C+II-_BM,Bone Marrow Classical Monocytes,6 week old C57BL/6J mice sorted on B220- CD3- CD115+ Ly- 6C+ MHCII-
+Mo_6C+II-_LN,"Classical Monocytes, MHCII-",6 week old C57BL/6J mice sorted on CD115+ B220- Ly-6C+ MHCII- F480int CD11c- CD11bhi
+Mo_6C+II+_Bl,"Classical Monocytes, MHCII+",6 week old C57BL/6J mice sorted on CD115+ B220- Ly-6C+ to int MHCII+
+Mo_6C-II-_Bl,"Nonclassical Monocytes, MHCII-",6 week old C57BL/6J mice sorted on CD115+ B220- Ly-6C- MHCII-
+Mo_6C-II-_BM,Bone Marrow Non Classical Monocytes,6 week old C57BL/6J mice sorted on B220- CD3- CD115+ Ly- 6C- MHCII- CD43+
+Mo_6C-II+_Bl,"Nonclassical Monocytes, MHCIIhi",6 week old C57BL/6J mice sorted on CD115+ B220- Ly-6C- MHCIIhi
+Mo_6C-IIint_Bl,"Nonclassical Monocytes, MHCIIint",6 week old C57BL/6J mice sorted on CD115+ B220- Ly-6C- MHCIIint
+Mo_Lu,Lung monocytes,
+NK_49CI-_Sp,"Splenic Natural Killer Cells, Ly49CI- Subset",6 week old C57BL/6J mice sorted on CD3- NK1.1+ Ly49C/I-
+NK_49CI+_Sp,"Splenic Natural Killer Cells, Ly49CI+ Subset",6 week old C57BL/6J mice sorted on CD3- NK1.1+ Ly49C/I+
+NK_49H-_Sp,"Splenic NK Cells, Ly49H- Subset",6 week old C57BL/6J mice sorted on CD3- NK1.1+ Ly49H-
+NK_49H+_Sp,"Splenic NK Cells, Ly49H+ Subset",6 week old C57BL/6J mice sorted on CD3- NK1.1+ Ly49H+
+NK_b2m-_Sp,Splenic Natural Killer Cells,6 week old C57BL/6J.b2m- mice sorted on CD3- NK1.1+ TCRb-
+NK_CD127-_SI,,7 week old C57BL/6J mice with RORgt-GFP background sorted on CD45+ NKp46+ RORgt- CD127- NK1.1+ CD3- CD19- 7-AAD-
+NK_CD127-_Sp,,10 week old C57BL/6J mice sorted on CD45+ NKp46+ NK1.1+ CD127- CD3- CD19- 7-AAD-
+NK_CD49b+_Lv,,10 week old C57BL/6J mice sorted on CD45+ NKp46+ NK1.1+ CD49B+ TRAIL- CD3- CD19- 7-AAD-
+NK_DAP10-_Sp,Splenic Natural Killer Cells,6 week old C57BL/6J mice sorted on CD3- NK1.1+ TCRb-
+NK_DAP12-_Sp,Splenic Natural Killer Cells,6 week old C57BL/6J mice sorted on CD3- NK1.1+
+NK_H+_MCMV1_Sp,"Ly49H+ Splenic Natural Killer Cells, Day 1 post-MCMV",6 week old C57BL/6J mice sorted on CD3- NK1.1+ Ly49H+ TCRb-
+NK_H+_MCMV7_Sp,"Ly49H+ Splenic Natural Killer Cells, Day 7 post-MCMV",6 week old C57BL/6J mice sorted on CD3- NK1.1+ Ly49H+ TCRb-
+NK_MCMV1_Sp,"Splenic Natural Killer Cells, Day 1 post-MCMV",6 week old C57BL/6J mice sorted on CD3- NK1.1+
+NK_MCMV7_Sp,"Splenic Natural Killer Cells, Day 7 post-MCMV",6 week old C57BL/6J mice sorted on CD3- NK1.1+
+NK_Sp,Splenic Natural Killer Cells,6 week old C57BL/6J mice sorted on CD3- NK1.1+
+NKT_4-_Lv,Liver Invariant iNKT CD4-,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD4-
+NKT_4-_Sp,Spleen Invariant iNKT CD4-,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD4-
+NKT_4+_Lv,Liver Invariant iNKT CD4+,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD4+
+NKT_4+_Sp,Spleen Invariant iNKT CD4+,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD4+
+NKT_44+NK1_1-_Th,Thymus Invariant iNKT precursor CD44+ NK1.1-,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD44+ NK1.1-
+NKT_44+NK1_1+_Th,Thymus Invariant iNKT precursor CD44+ NK1.1+,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD44+ NK1.1+
+NKT_44-NK1_1-_Th,Thymus Invariant iNKT precursor CD44- NK1.1-,6 week old C57BL/6J mice sorted on TCRb+ aGalCerTet+ CD44- NK1.1-
+preB_FrC_BM,Fr. Cprime (Cycling Pre-B),6 week old C57BL/6J mice sorted on AA4+ IgM- CD19+ CD43+ HSA++
+preB_FrD_BM,"small pre-B population, Fr. D",6 week old C57BL/6J mice sorted on CD19+ IgM- CD45R+ CD43-
+preB_FrD_FL,Fr D (Pre-B),18 day old C57BL/6J mice sorted on AA4+ IgM- CD19+ CD43- HSA+
+preT_DN2_Th,Double Negative 2 Thymocytes,6 week old C57BL/6J mice sorted on Lin-/lo CD25hi CD44+ cKit+
+preT_DN2-3_Th,DN2 to DN3 Transitional,6 week old C57BL/6J mice sorted on Lin-/lo CD25hi CD44Int
+preT_DN2A_Th,Double Negative 2A Thymocytes,6 week old C57BL/6J mice sorted on Lin-/lo CD25hi CD44+ cKithi
+preT_DN2B_Th,Double Negative 2B Thymocytes,6 week old C57BL/6J mice sorted on Lin-/lo CD25hi CD44+ cKitint
+preT_DN3-4_Th,DN3 to DN4 Transitional,6 week old C57BL/6J mice sorted on Lin-/lo CD25int CD44- CD28+
+preT_DN3A_Th,Double Negative 3A Thymocytes,6 week old C57BL/6J mice sorted on Lin-/lo CD25hi CD44- CD28-
+preT_DN3B_Th,Double Negative 3B Thymocytes,6 week old C57BL/6J mice sorted on Lin-/lo CD25hi CD44- CD28+
+preT_ETP_Th,Early T lineage Precursor,6 week old C57BL/6J mice sorted on Lin-/lo CD25- CD44+ cKit+
+preT_ETP-2A_Th,ETP to DN2a Transitional,6 week old C57BL/6J mice sorted on Lin-/lo CD25int CD44+ cKit+
+proB_CLP_BM,Common Lymphoid Progenitor,10 week old C57BL/6J mice sorted on LIN- AA4+ Kit+ IL7Ra+ B220-
+proB_CLP_FL,Common Lymphoid Progenitor,15 day old C57BL/6J mice sorted on LIN- AA4+ Kit+ IL7Ra+ B220-
+proB_FrA_BM,Fr. A (Pre-Pro-B),10 week old C57BL/6J mice sorted on LIN- AA4+ Kit+ IL7Ra+ B220+
+proB_FrA_FL,Fr. A (Pre-Pro-B),15 day old C57BL/6J mice sorted on LIN- AA4+ Kit+ IL7Ra+ B220+
+proB_FrBC_BM,"pro-B stage cell population, Fr. B &amp; Fr. C",6 week old C57BL/6J mice sorted on IgM- CD19+ CD43+ CD24+
+proB_FrBC_FL,Fr. B/C (Pro-B),15 day old C57BL/6J mice sorted on AA4+ IgM- CD19+ CD43+ HSA+
+SC_CDP_BM,Common DC Precursors (CDP),6 week old C57BL/6J mice sorted on Lineage- sca1- ckitloFlt3+ CD115+
+SC_CMP_BM_DR,Common Myeloid Progenitor,8 week old C57BL/6J mice sorted on Lin- IL7R- Sca1- ckit+ FcgRloCD34+
+SC_GMP_BM,GMP,8 week old C57BL/6J mice sorted on Lin- IL7R- Sca1- ckit+ FcgRhiCD34+
+SC_LTSL_BM,long-term repopulating hematopoietic stem cell,10 week old C57BL/6J mice sorted on IgM- CD24- CD117+ IL7R- CD150- CD48- AA4.1+ CD43+
+SC_LTSL_FL,Cd150+Cd48- Lt-Hsc,15 day old C57BL/6J mice sorted on CD150+ CD48- Lin- ckit+ Sca1+
+SC_MDP_BM,Monocyte DC Precursors (MDP),6 week old C57BL/6J mice sorted on Lineage- sca1- ckithiFlt3+ CD115+
+SC_MEP_BM,MEP,8 week old C57BL/6J mice sorted on Lin- IL7R- Sca1- ckit+ FcgRloCD34-
+SC_MPP34F_BM,Cd34+Flk2+ Mpp,8 week old C57BL/6J mice sorted on CD34+ Flk2+ Lin- c- kit+ Sca1+
+SC_ST34F_BM,Cd34+Flk2- St-Hsc,8 week old C57BL/6J mice sorted on CD34+ Flk2- Lin- c- kit+ Sca1+
+SC_STSL_BM,short-term repopulating hematopoietic stem cell,10 week old C57BL/6J mice sorted on CD117+IL7R-CD150-CD48-AA4.1+CD43+
+SC_STSL_FL,Cd150-Cd48- St-Hsc,15 day old C57BL/6J mice sorted on CD150- CD48- Lin- ckit+ Sca1+
+St_31-38-44-_SLN,Cutaneous Lymph Node Cd44- Double Negative Stromal Cell,6 week old C57BL/6J mice sorted on CD45- gp38- CD31- CD44-
+T_4_LN_BDC,"Subcutaneous LN CD4, BDC Islet-Reactive TCR Tg",6 week old C57BL/6J mice sorted on 4+ 8- BDC+
+T_4_Pa_BDC,"Pancreas-Infiltrating CD4, BDC Islet-Reactive TCR Tg",6 week old C57BL/6J mice sorted on 4+ 8- BDC+
+T_4_PLN_BDC,"Pancreatic LN CD4, BDC Islet-Reactive TCR Tg",6 week old C57BL/6J mice sorted on 4+ 8- BDC+
+T_4+8int_Th,"Positive Selection, Transitional Intermediate",6 week old C57BL/6J mice sorted on 4+ 8int TCRhi
+T_4Eff49d+11a+_Sp_d8_LCMV,,
+T_4FP3-_Sp,Spleen Naive CD4 FoxP3- 25-,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ GFP- 25- 44lo
+T_4FP3+25+_Sp,SplCD25+Tregs,6 week old C57BL/6J GFP-FoxP3 Knockin mice sorted on 4+ 8- GFP+ 25+
+T_4int8+_Th,"Positive Selection, Transitional Intermediate",6 week old C57BL/6J mice sorted on 4int 8+ TCRhi
+T_4Mem_LN,Subcutaneous LN Memory-Phenotype CD4,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ 25- 44hi 122lo
+T_4Mem_Sp,Spleen Memory-Phenotype CD4,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ 25- 44hi 122lo
+T_4Mem44h62l_LN,Subcutaneous LN Memory-Phenotype CD4,6 week old GFP-Foxp3-CD45.1 C57BL/6J mice sorted on 4+ 8- TCR+ 44hi 62Lo
+T_4Mem44h62l_Sp,Spleen Memory-Phenotype CD4,6 week old GFP-Foxp3-CD45.1 C57BL/6J mice sorted on 4+ 8- TCR+ 44hi 62Lo
+T_4Mem49d+11a+_Sp_d30_LCMV,,
+T_4Nve_LN,Subcutaneous LN Naive CD4,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ 25- 62Lhi 44lo
+T_4Nve_MLN,Mesenteric LN Naive CD4,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ 25- 62Lhi 44lo
+T_4Nve_PP,Peyers Patches Naive CD4,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ 25- 62Lhi 44lo
+T_4Nve_Sp,Spleen Naive CD4,6 week old C57BL/6J mice sorted on 4+ 8- TCR+ 25- 62Lhi 44lo
+T_4Nve44-49d-11a-_Sp,,
+T_4SP24-_Th,"CD4 Single-Positive, Mature",6 week old C57BL/6J mice sorted on 4+ 8- TCRhi 24-/lo
+T_4SP24int_Th,"CD4 Single-Positive, Semimature",6 week old C57BL/6J mice sorted on 4+ 8- TCRhi 24int
+T_4SP69+_Th,"CD4 Single-Positive, CD69+",6 week old C57BL/6J mice sorted on 4+ 8- TCRhi 69+
+T_8Eff_Sp_OT1_12hr_LisOva,Spleen Ot1 Tg Effectors Cd8 12Hr Listeria.Ova ,6 week old OT-I CD45.2 > B6.CD45.1 mice sorted on CD8+ CD45.2+
+T_8Eff_Sp_OT1_24hr_LisOva,Spleen Ot1 Tg Effectors Cd8 24Hr Listeria.Ova ,6 week old OT-I CD45.2 > B6.CD45.1 mice sorted on CD8+ CD45.2+
+T_8Eff_Sp_OT1_48hr_LisOva,Spleen Ot1 Tg Effectors Cd8 48Hr Listeria.Ova ,6 week old OT-I CD45.2 > B6.CD45.1 mice sorted on CD8+ CD45.2+
+T_8Eff_Sp_OT1_d10_LisOva,Spleen OT1 tg Effectors CD8 Day 10 Listeria.OVA,"6 week old C57BL/6J mice 10 days after Listeria monocytogenes infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d15_LisOva,Spleen OT1 tg Effectors CD8 Day 15 Listeria.OVA,"6 week old C57BL/6J mice 15 days after Listeria monocytogenes infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d15_VSVOva,Spleen OT1 tg Effectors CD8 Day 15 VSV.OVA,"6 week old C57BL/6J mice 15 days after vesicular stomatitis virus infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d5_VSVOva,Spleen OT1 tg Effectors CD8 Day 5 VSV.OVA,"6 week old C57BL/6J mice 5 days after vesicular stomatitis virus infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d6_LisOva,Spleen OT1 tg Effectors CD8 Day 6 Listeria.OVA,"6 week old C57BL/6J mice 6 days after Listeria monocytogenes infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d6_VSVOva,Spleen OT1 tg Effectors CD8 Day 6 VSV.OVA,"6 week old C57BL/6J mice 6 days after vesicular stomatitis virus infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d8_LisOva,Spleen OT1 tg Effectors CD8 Day 8 Listeria.OVA,"6 week old C57BL/6J mice 8 days after Listeria monocytogenes infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Sp_OT1_d8_VSVOva,Spleen OT1 tg Effectors CD8 day 8 VSV.OVA,"6 week old C57BL/6J mice 8 days after vesicular stomatitis virus infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Eff_Tbet-_Sp_OT1_d6LisOVA,Spleen OT1 tg TbetKO CD8 d6 Listeria.OVA,
+T_8Eff_Tbet+_Sp_OT1_d6LisOVA,Spleen OT1 tg TbetWT CD8 d6 Listeria.OVA,
+T_8EffKLRG1+CD127-_Sp_d8_LisOVA,Spleen OTI tg KLRG1+CD127- Effector CD8 d8 Listeria.OVA,
+T_8Mem_LN,Subcutaneous LN Memory-Phenotype CD8,6 week old C57BL/6J mice sorted on 4- 8+ TCR+ 25- 44hi 122hi
+T_8Mem_Sp,Spleen Memory-Phenotype CD8,6 week old C57BL/6J mice sorted on 4- 8+ TCR+ 25- 44hi 122hi
+T_8Mem_Sp_OT1_d100_LisOva,Spleen OT1 tg Memory CD8 Day 100 Listeria.OVA,"6 week old C57BL/6J mice 100 days after Listeria monocytogenes infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Mem_Sp_OT1_d106_VSVOva,Spleen OT1 tg Memory CD8 Day 106 VSV.OVA,"6 week old C57BL/6J mice 106 days after vesicular stomatitis virus infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Mem_Sp_OT1_d45_LisOva,Spleen OT1 tg Memory CD8 Day 45 Listeria.OVA,"6 week old C57BL/6J mice 45 days after Listeria monocytogenes infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8Mem_Sp_OT1_d45_VSVOva,Spleen OT1 tg Memory CD8 Day 45 VSV.OVA,"6 week old C57BL/6J mice 45 days after vesicular stomatitis virus infection, sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-"
+T_8MemKLRG1-CD127+_Sp_d8_LisOVA,Spleen OT1 tg KLRG1-CD127+ Memory Precursor CD8 d8 Listeria.OVA,
+T_8Nve_LN,Subcutaneous LN Naive CD8,6 week old C57BL/6J mice sorted on 4- 8+ TCR+ 25- 62Lhi 44lo
+T_8Nve_MLN,Mesenteric LN Naive CD8,6 week old C57BL/6J mice sorted on 4- 8+ TCR+ 25- 62Lhi 44lo
+T_8Nve_PP,Peyers Patches Naive CD8,6 week old C57BL/6J mice sorted on 4- 8+ TCR+ 25- 62Lhi 44lo
+T_8Nve_Sp,Spleen Naive CD8,6 week old C57BL/6J mice sorted on 4- 8+ TCR+ 25- 62Lhi 44lo
+T_8Nve_Sp_OT1,Spleen OT1 tg Naive CD8,6 week old C57BL/6J mice sorted on CD8+ CD45.1+ B220- CD45.2- Gr1- NK1.1- CD4- MHCII- P.I.-
+T_8SP24-_Th,"CD8 Single-Positive, Mature",6 week old C57BL/6J mice sorted on 4- 8+ TCRhi 24-/lo
+T_8SP24int_Th,"CD8 Single-Positive, Semimature",6 week old C57BL/6J mice sorted on 4- 8+ TCRhi 24int
+T_8SP69+_Th,"CD8 Single-Positive, CD69+",6 week old C57BL/6J mice sorted on 4- 8+ TCRhi 69+
+T_DN4_Th,Double Negative 4 Thymocytes,6 week old C57BL/6J mice sorted on Lin-/lo CD25- CD44- CD28+
+T_DP_69-_e17_Th_v2,Thymus B6 E17 DP CD69-,
+T_DP_Th,"Double-Positive, All",6 week old C57BL/6J mice sorted on 4+ 8+ TCR-/lo 69-
+T_DP_Th_v2,"Thymic Double-Positive, Early Positive Selection",
+T_DP69+_Th,"Double-Positive, Early Positive Selection",6 week old C57BL/6J mice sorted on 4+ 8+ TCRlo/int 69+
+T_DP69+_Th_v2,"Thymic Double-Positive, Early Positive Selection",
+T_DPbl_Th,"Double-Positive, Blasts",6 week old C57BL/6J mice sorted on 4+ 8+ TCR-/lo FSChi
+T_DPsm_Th,"Double-Positive, Small Resting",6 week old C57BL/6J mice sorted on 4+ 8+ TCR-/lo FSClo
+T_ISP_Th,"Intermediate Single-Positive, CD3- CD8+",6 week old C57BL/6J mice sorted on 4- 8+ TCR-/lo 24hi
+Tgd_Sp,"Spleen TCRgd, all DN",6 week old C57BL/6J mice sorted on TCRd+ CD4- CD8-
+Tgd_Th,"Thymic TCRgd, all DN",6 week old C57BL/6J mice sorted on TCRd+ CD4- CD8-
+Tgd_vg1+vd6+24ahi_Th,"Thymic Vg1.1+Vd6.3+, Immature",6 week old C57BL/6J mice sorted on Vg1.1+ Vd6.3+ TCRd+ CD24+
+Tgd_vg1+vd6+24alo_Th,"Thymic Vg1.1+Vd6.3+, Mature",6 week old C57BL/6J mice sorted on Vg1.1+ Vd6.3+ TCRd+ CD24-
+Tgd_vg1+vd6-24ahi_Th,"Thymic Vg1.1+Vd6.3-, Immature ",6 week old C57BL/6J mice sorted on Vg1.1+ Vd6.3- TCRd+ CD24+
+Tgd_vg1+vd6-24alo_Th,"Thymicvg1.1+Vd6.3-, Mature ",6 week old C57BL/6J mice sorted on Vg1.1+ Vd6.3- TCRd+ CD24-
+Tgd_vg2-_act_Sp,"SpleenVg2-, Activated",6 week old C57BL/6J mice sorted on Vg2- TCRd+ CD44+ CD4- CD8-
+Tgd_vg2-_Sp,"SpleenVg2-, Resting",6 week old C57BL/6J mice sorted on Vg2- TCRd+ CD44- CD4- CD8-
+Tgd_vg2-_Sp_TCRbko,"Spleen Aberrant, Vg2-, Resting",6 week old C57BL/6J mice sorted on Vg2- TCRd+ CD44- CD4- CD8-
+Tgd_vg2+_act_Sp,"SpleenVg2+, Activated",6 week old C57BL/6J mice sorted on Vg2+ TCRd+ CD44+ CD4- CD8-
+Tgd_vg2+_Sp,"SpleenVg2+, Resting",6 week old C57BL/6J mice sorted on Vg2+ TCRd+ CD44- CD4- CD8-
+Tgd_vg2+_Sp_TCRbko,"Spleen Aberrant, Vg2+, Resting",6 week old C57BL/6J mice sorted on Vg2+ TCRd+ CD44- CD4- CD8-
+Tgd_vg2+24ahi_e17_Th,"Fetal Thymus Vg2+, Immature DN",17 day old C57BL/6J mice sorted on Vg2+ TCRd+ CD24+ CD4- CD8-
+Tgd_vg2+24ahi_e17_Th_v2,Thymus B6 E17 TCRgammadelta,
+Tgd_vg2+24ahi_Th,"ThymicVg2+, Immature",6 week old C57BL/6J mice sorted on Vg2+ TCRd+ CD24+ CD4- CD8-
+Tgd_vg2+24alo_Th,"Thymicvg2+, Mature ",6 week old C57BL/6J mice sorted on Vg2+ TCRd+ CD24- CD4- CD8-
+Tgd_vg3+24ahi_e17_Th,"Fetal Thymus, Dec Precursor, Immature DN",17 day old C57BL/6J mice sorted on Vg3+ TCRd+ CD24+ CD4- CD8-
+Tgd_vg3+24alo_e17_Th,"Fetal Thymus, DEC Precursor, Mature DN",17 day old C57BL/6J mice sorted on Vg3+ TCRd+ CD24- CD4- CD8-
+Tgd_vg4+24ahi_e17_Th,Thymus B6 E17 TCRgammadelta,
+Tgd_vg4+24alo_e17_Th,Thymus B6 E17 TCRgammadelta,
+Tgd_vg5-_act_IEL,"i-IEL Vg5-, Activated",6 week old C57BL/6J mice sorted on Vg5- TCRd+ CD44+ CD8aa+
+Tgd_vg5-_IEL,"i-IEL Vg5-, Resting",6 week old C57BL/6J mice sorted on Vg5- TCRd+ CD44- CD8aa+
+Tgd_vg5+_act_IEL,"i-IEL Vg5+, Activated",6 week old C57BL/6J mice sorted on Vg5+ TCRd+ CD44+ CD8aa+
+Tgd_vg5+_IEL,"i-IEL Vg5+, Resting",6 week old C57BL/6J mice sorted on Vg5+ TCRd+ CD44- CD8aa+
+Tgd_vg5+24ahi_Th,"Thymicvg5+,Immature",6 week old C57BL/6J mice sorted on Vg5+ TCRd+ CD24+
