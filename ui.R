@@ -42,9 +42,13 @@ ui <- fluidPage(
                  
                  actionButton("run", label="Analyze"),
                  
+                 br(),br(), br(),
+                 
+                 downloadButton("download_res", "Download results"),
+                 
                  br(),br(),
                  
-                 downloadButton("download_res", "Download results")
+                 downloadButton("download_top5", "Download top5 hits")
                  
                  # uiOutput("downloadData_ui") #THIS ALSO WORKS TO SHOW BUTTON AFTER ANALYSIS
                  

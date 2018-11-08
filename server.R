@@ -15,9 +15,11 @@ server <- function(input, output){
   
   
   shinyjs::disable("download_res")
+  shinyjs::disable("download_top5")
   
   observeEvent(analyzed_df(), {
     shinyjs::enable("download_res")
+    shinyjs::enable("download_top5")
   })
   
   
@@ -429,12 +431,19 @@ server <- function(input, output){
   
   
   output$download_res <- downloadHandler(
-    filename = "Identity_scores.csv",
+    filename = "Identity_scores_all.csv",
     content = function(file) {
       write.csv(analyzed_df(), file, row.names = FALSE)
     }
   )
   
+  
+  output$download_top5 <- downloadHandler(
+    filename = "Identity_scores_top5.csv",
+    content = function(file) {
+      write.csv(top5_df_brush, file, row.names = FALSE)
+    }
+  )
   
   
 } # close server function
