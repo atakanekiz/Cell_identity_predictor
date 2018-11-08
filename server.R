@@ -388,36 +388,45 @@ server <- function(input, output){
   ################################################################################################################################
   # Prepare top5 summary plots
   
+  top_df <- reactive({
+    
+    
+    top5_df <- analyzed_df() %>%
+    group_by(cluster) %>%    #cluster
+    top_n(5, wt = reference_score_sum) %>%
+    arrange(as.numeric(cluster), cluster, desc(reference_score_sum))
+  
+  
+  ordered_cluster_levels <- gtools::mixedsort(levels(as.factor(top5_df$cluster)))
+  
+  
+  top5_df$cluster <- factor(top5_df$cluster, levels = ordered_cluster_levels)
+  
+  
+  top5_df$index <- 1:nrow(top5_df)
+  
+  top5_df <- select(top5_df, cluster,
+                    ref_cell_type,
+                    reference_id,
+                    long_name,
+                    description,
+                    reference_score_sum,
+                    index, everything())
+  
+  
+  
+  top5_df_brush <<- top5_df
+  
+  top5_df
+  
+  })
+  
   
   output$top5 <- renderPlot({
     
-    top5_df <- analyzed_df() %>%
-      group_by(cluster) %>%    #cluster
-      top_n(5, wt = reference_score_sum) %>%
-      arrange(as.numeric(cluster), cluster, desc(reference_score_sum))
+   top_plot <- top_df()
     
-    
-    ordered_cluster_levels <- gtools::mixedsort(levels(as.factor(top5_df$cluster)))
-    
-    
-    top5_df$cluster <- factor(top5_df$cluster, levels = ordered_cluster_levels)
-    
-    
-    top5_df$index <- 1:nrow(top5_df)
-    
-    top5_df <- select(top5_df, cluster,
-                      ref_cell_type,
-                      reference_id,
-                      long_name,
-                      description,
-                      reference_score_sum,
-                      index, everything())
-    
-    
-    
-    top5_df_brush <<- top5_df
-    
-    ggdotplot(top5_df, x="index", y="reference_score_sum", 
+    ggdotplot(top_plot, x="index", y="reference_score_sum", 
               fill = "cluster", size=2, x.text.angle=90, 
               font.legend = c(15, "plain", "black")) +
       scale_x_discrete(labels=top5_df$reference_id)+
@@ -441,7 +450,8 @@ server <- function(input, output){
   output$download_top5 <- downloadHandler(
     filename = "Identity_scores_top5.csv",
     content = function(file) {
-      write.csv(top5_df_brush, file, row.names = FALSE)
+      
+    write.csv(top_df(), file, row.names = FALSE)
     }
   )
   
