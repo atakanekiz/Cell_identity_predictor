@@ -104,11 +104,29 @@ server <- function(input, output){
         need(input$de_file != "", "Please upload a data set or use example data")
       )
       
+      # Make sure the file type is correct
+      validate(
+        need(tools::file_ext(inFile$name) %in% c(
+          'text/csv',
+          'text/comma-separated-values',
+          'text/tab-separated-values',
+          'text/plain',
+          'csv',
+          'tsv'
+        ), "Wrong File Format try again!"))
       
-      
+
       
       dat <- as_tibble(
-        read.csv(inFile$datapath, check.names=FALSE, strip.white = TRUE)
+        read.csv(inFile$datapath, check.names=TRUE, strip.white = TRUE)
+      )
+      
+      # Make sure the column names are proper for correct subsetting
+      validate(
+        need(
+          {if(sum(Reduce("|", lapply(c("logfc", "gene", "cluster"), grepl, colnames(dat), ignore.case=T))) == 3) TRUE else FALSE},
+          "Formatting error: Make sure your dataset contains at least three columns named 'logfc', 'gene', and 'cluster' (capitalization is not important)"
+      )
       )
       
       req(input$run)
@@ -429,7 +447,7 @@ server <- function(input, output){
     ggdotplot(top_plot, x="index", y="reference_score_sum", 
               fill = "cluster", size=2, x.text.angle=90, 
               font.legend = c(15, "plain", "black")) +
-      scale_x_discrete(labels=top5_df$reference_id)+
+      scale_x_discrete(labels=top_plot$reference_id)+
       theme(axis.text.x = element_text(vjust=0.5, hjust=1))
     
   })
