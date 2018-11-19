@@ -66,6 +66,15 @@ ui <- fluidPage(
       
       tabsetPanel(
         
+        tabPanel("Top-5 hits",
+                 
+                 fluidRow(
+                   h4("You can draw a rectangle around points for further information"),
+                   plotOutput("top5", brush = "brushtop5"), height="600px"),
+                 tableOutput("brushtop5")
+        ),
+        
+        
         tabPanel("Individual Clusters",
                  
                  # This is the dynamic UI for the plots generated for each cluster
@@ -77,14 +86,7 @@ ui <- fluidPage(
         ),
         
         
-        tabPanel("Top-5 hits",
-                 
-                 fluidRow(
-                   h4("You can draw a rectangle around points for further information"),
-                   plotOutput("top5", brush = "brushtop5"), height="600px"),
-                 tableOutput("brushtop5")
-        ),
-        
+
         tabPanel("How to use this program",
                  
                  h3("Summary"),
