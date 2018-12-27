@@ -69,7 +69,7 @@ ui <- fluidPage(
         tabPanel("Top-5 hits",
                  
                  fluidRow(
-                   h4("You can draw a rectangle around points for further information"),
+                   # h4("You can draw a rectangle around points for further information"),
                    plotOutput("top5", brush = "brushtop5"), height="600px"),
                  tableOutput("brushtop5")
         ),
@@ -79,10 +79,13 @@ ui <- fluidPage(
                  
                  # This is the dynamic UI for the plots generated for each cluster
                  
-                 # fluidRow(
-                 #   verbatimTextOutput("brush"),    )
-                 uiOutput("plots")
-                 
+                 fluidRow(
+                   #   verbatimTextOutput("brush"),    )
+                   h4("Please wait while the images are being generated. This can take some time depending on the cluster numbers.\n"),
+                   p("In the plots below, horizontal lines indicate the mean identity score for each experimental cell cluster, and the shaded bands indicate +/- 1 and 2 standard deviations from the mean.\n\n"),
+                   uiOutput("plots")
+
+                 )       
         ),
         
         
@@ -162,6 +165,23 @@ ui <- fluidPage(
                    tags$li("For each cell cluster in the experiment, aggregate IS of reference cell types are plotted in dot plots which shows reference cell types in the x-axis, and aggregate IS in the -axis."),
                    tags$li("A summary plot showing the reference cell types correspoint to the highest 5 IS score is also shown.")
                  ),
+                 
+                 
+                 h3("How confident is the prediction?"),
+                 p("Since our algorithm compares unknown cluster gene signatures with signatures of reference samples, the confidence in the identity prediction can only be as high as the biological overlap between the experimental sample and the reference datasets. In an ideal scenario where gene expression data are available from all possible cell types under various experimental conditions, we envision that this algorithm can describe the identity of the unknown cell clusters in a highly accurate manner. However, in the absence of such data, our algorithm is still useful in characterizing unknown cluster identities by using a multiparametric approach. To help assess the confidence of the predictions, we utilize two different metrics:"),
+                 tags$ul(
+                   tags$li(strong("Deviation from mean:"), "For each unknown cluster, this metric is calculated by", strong(em("i) ")), "Averaging the identity scores from the whole reference dataset", strong(em("ii) ")), "Subtracting the identity scores of individual reference from this average", strong(em("iii) ")), "Dividing the difference by the standard deviation of the identity score across the whole reference dataset. This way, the deviation from mean is reported in the units of ", em("standard deviation."), "The higher deviation indicates a more pronounced distinction from the rest of the reference cell types, hence a higher confidence in prediction."),
+                   tags$li(strong("Frequency of positively correlated genes:"), "This metric calculates the percentage of signature genes from unknown clusters that are regulated in a similar fashion in the reference cell types (i.e. upregulated or downregulated in both datasets). To exemplify this, please consider the following example: Imagine an unknown cluster, 'Cluster_1', which is defined by 100 differentially expressed genes (90 of which are upregulated, 10 are downregulated). If a reference cell type, 'Ref_cell_A', also has these 100 genes regulated in the same direction (90 up, 10 down), the frequency of positively correlated genes would be 100%. On the other hand, if 'Ref_cell_B' had all of these genes upregulated, then this frequency would be 90% (due to the 10 genes exhibiting divergent regulation). This way, the investigator can assess the overlap of signature genes that show similar patterns of expression.")
+                 ), # close tags$ul
+                 p("Although these metrics can be helpful in determining the confidence of prediction, they are not suitable to serve as a benchmark for the performance of our algorithm. A 'low-confidence' prediction can be explained by various factors including"),
+                 tags$em(
+                   tags$ul(
+                     tags$li("A lack of comparable cell types in the reference dataset"),
+                     tags$li("Using suboptimal number of metagene dimensions during clustering step of data analysis (which can result in  impure clusters composed of multiple cell types"),
+                     tags$li("Presence of outliers in experimental data and clustering artifacts.")
+                   )),
+                 
+                 p("Alternatively, a 'low-confidence' prediction can point to the discovery of new and interesting cell populations, and identify contaminating cell populations in the experiment. For instance, our experience with tumor-infiltrating lymphocyte single cell RNA-sequencing in murine B16F10 melanoma model suggests that, contaminating melanoma cells are loosely identified as ImmGen blood stem cells due to their proliferative capacity and overlapping gene expression profiles (Ekiz HA, manuscript in preparation)."),
                  
                  h3("Contact us"),
                  p("For questions and comments:"),

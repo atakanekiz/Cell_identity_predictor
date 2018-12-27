@@ -232,7 +232,7 @@ server <- function(input, output){
   
   
   ################################################################################################################################
-  # Compare de_data against reference file
+   # Compare de_data against reference file
   analyzed_df <- reactive({
     
     
@@ -308,13 +308,38 @@ server <- function(input, output){
         
         
         
-        # Develop this further later to allow user input about custom reference dataset details. Ideas below
-        # Read in externally provided reference cell type info.
-        # Maybe require uploading a csv file with this and other information?
-        # Convert it to dataframe in which reference sample types are in rows and different details
-        # (cell type, description etc) are in columns
-        
+
         df$cluster <- i
+        
+        # Add confidence-of-prediction calculations here and append to the df
+        # Calculate the mean and standard deviation of the aggregate scores per reference cell type
+        mean_score_sum <- mean(df$reference_score_sum)
+        score_sum_sd <- sd(df$reference_score_sum)
+        
+        # Calculate the distance of the identity score from population mean (how many std devs apart?)
+        df$deviation_from_mean <- (df$reference_score_sum - mean_score_sum)/score_sum_sd
+        
+        # Calculate the proportion of the genes changing in the same direction between unknown cluster and reference cell type
+        df$percent_pos_correlation <- {
+          
+          ngenes <- dim(reference_scoring)[1]
+          
+          pos_corr_vector <- numeric()
+          
+          for(i in 1:dim(reference_scoring)[2]){
+            
+            # Calculate number of genes positively correlated (upregulated or downregulated in both unk cluster and reference)
+            pos_cor <- ( sum(reference_scoring[, i] > 0) / ngenes ) * 100
+            
+            pos_corr_vector <- c(pos_corr_vector, pos_cor)
+            
+          } #close for loop
+          
+          pos_corr_vector
+          
+        } # close expression 
+        
+        
         
         master_df <- rbind(master_df,df)
         
@@ -355,18 +380,17 @@ server <- function(input, output){
   
   
   
-  # # THIS FAILS DUE TO CALLING CLUSTERS() OUTSIDE OF REACTIVE CONTEXT. TRY WRAPPING WITH OBSERVE()
   # # Call renderPlot for each one. Plots are only actually generated when they
   # # are visible on the web page.
   
   observe({
     
-    withProgress(message = 'Making plot', value = 0, {
+    withProgress(message = 'Analyzing', value = 0, {
       
       for (i in clusters()) {
         
         # Increment the progress bar, and update the detail text.
-        incProgress(1/length(clusters()), detail = paste("Plotting cluster", i))
+        incProgress(1/length(clusters()), detail = paste("Cluster", i))
         
         # Need local so that each item gets its own number. Without it, the value
         # of i in the renderPlot() will be the same across all instances, because
@@ -376,6 +400,11 @@ server <- function(input, output){
           df_plot <- analyzed_df() %>%
             filter(cluster == i)
           
+          score_mean <- mean(df_plot$reference_score_sum)
+          score_sd <- sd(df_plot$reference_score_sum)
+          
+          
+          
           my_i <- i
           plotname <- paste("plot", my_i, sep="")
           
@@ -383,24 +412,43 @@ server <- function(input, output){
             
             df_plot_brushed <<- df_plot
             
-            p <- ggdotchart(df_plot, x = "reference_id", y="reference_score_sum", 
-                            group = "ref_cell_type", color = "ref_cell_type", xlab=F, ylab="Reference identity score",
-                            font.y = c(14, "bold", "black"),
-                            dot.size = 3, title = paste("Cluster:",my_i), font.title = c(15, "bold.italic"),
-                            font.legend = c(15, "plain", "black"))+
-              theme(axis.text.x = element_text(size=10, vjust=0.5, hjust=1))
+            p <- ggdotplot(df_plot, x = "reference_id", y="reference_score_sum", 
+                           fill = "ref_cell_type", xlab=F, ylab="Reference identity score",
+                           font.y = c(14, "bold", "black"), size=1, x.text.angle=90,
+                           title = paste("Cluster:",my_i), font.title = c(15, "bold.italic"),
+                           font.legend = c(15, "plain", "black"))+
+              theme(axis.text.x = element_text(size=10, vjust=0.5, hjust=1))+
+              geom_hline(yintercept=score_mean)+
+              annotate("rect", xmin = 1, xmax = length(df_plot$reference_id),
+                       ymin = score_mean-score_sd, ymax = score_mean+score_sd,
+                       fill = "gray50", alpha = .1)+
+              annotate("rect", xmin = 1, xmax = length(df_plot$reference_id),
+                       ymin = score_mean-2*score_sd, ymax = score_mean+2*score_sd,
+                       fill = "gray50", alpha = .1)
+            
+            
+            
+            # Old iteration using ggdotchart function. It reorders X axis.
+            # p <- ggdotchart(df_plot, x = "reference_id", y="reference_score_sum", 
+            #                 group = "ref_cell_type", color = "ref_cell_type", xlab=F, ylab="Reference identity score",
+            #                 font.y = c(14, "bold", "black"),
+            #                 dot.size = 3, title = paste("Cluster:",my_i), font.title = c(15, "bold.italic"),
+            #                 font.legend = c(15, "plain", "black"))+
+            #   theme(axis.text.x = element_text(size=10, vjust=0.5, hjust=1))
             
             
             print(p)
             
-          })
-        })
-      }
+          }) # close renderPlot
+          
+        }) # close local
+        
+      } # close for loop 
       
-    })  
+    })  # close withProgress
     
     
-  })
+  }) #close observe
   
   
   ################################################################################################################################
