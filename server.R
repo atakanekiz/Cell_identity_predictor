@@ -7,7 +7,7 @@ server <- function(input, output){
   output$brushtop5 <- renderTable({
     
     validate(
-      need(input$brushtop5, "Please draw a rectangle around interesting points")
+      need(input$brushtop5, "Draw a rectangle around data points for further information")
     )
     
     brushedPoints(top5_df_brush, input$brushtop5)
@@ -317,7 +317,7 @@ server <- function(input, output){
         score_sum_sd <- sd(df$reference_score_sum)
         
         # Calculate the distance of the identity score from population mean (how many std devs apart?)
-        df$deviation_from_mean <- (df$reference_score_sum - mean_score_sum)/score_sum_sd
+        df$z_score <- (df$reference_score_sum - mean_score_sum)/score_sum_sd
         
         # Calculate the proportion of the genes changing in the same direction between unknown cluster and reference cell type
         df$percent_pos_correlation <- {
