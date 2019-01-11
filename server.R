@@ -92,7 +92,7 @@ server <- function(input, output){
       
       req(input$run)
       
-      as_tibble(read.csv("data/Example_cluster_signatures.csv",
+      as_tibble(read.csv("data/Trimmed_cluster_signatures.csv",
                          check.names = F,
                          strip.white = T))
       
