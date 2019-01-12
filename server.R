@@ -493,7 +493,7 @@ server <- function(input, output){
    top_plot <- top_df()
     
     ggdotplot(top_plot, x="index", y="reference_score_sum", 
-              fill = "cluster", size=2, x.text.angle=90, 
+              fill = "cluster", size=1, x.text.angle=90, 
               font.legend = c(15, "plain", "black")) +
       scale_x_discrete(labels=top_plot$reference_id)+
       theme(axis.text.x = element_text(vjust=0.5, hjust=1))

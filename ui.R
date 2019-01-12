@@ -6,7 +6,7 @@ ui <- fluidPage(
   
   tags$head(includeHTML(("data/google_analytics.html"))),
   
-  titlePanel(title=div(img(src="cipr_logo_small.png"), "Cluster identity predictor")),
+  titlePanel(title=div(img(src="cipr_logo_small.png"), "Cluster identity predictor"), windowTitle = "CIPR"),
   
   sidebarLayout(
     
